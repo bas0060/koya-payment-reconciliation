@@ -1,0 +1,24 @@
+{
+  "name": "koya-payment-reconciliation",
+  "version": "1.0.0",
+  "description": "koya-ai-exercise",
+  "homepage": "https://github.com/bas0060/koya-payment-reconciliation#readme",
+  "bugs": {
+    "url": "https://github.com/bas0060/koya-payment-reconciliation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bas0060/koya-payment-reconciliation.git"
+  },
+  "license": "MIT",
+  "author": "Abdulbasit Makinde",
+  "type": "module",
+  "main": "reconcile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env reconcile.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
